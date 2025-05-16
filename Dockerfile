@@ -1,5 +1,5 @@
 # Use the official Rust image as the base
-FROM rust:latest
+FROM rust:1.87
 
 # Install wasm32-unknown-unknown target for Rust
 RUN rustup target add wasm32-unknown-unknown
